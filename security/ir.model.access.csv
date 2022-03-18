@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_booking_service_team,access.booking.service_team,model_booking_service_team,,1,1,1,1
+access_booking_work_order,access.booking.work_order,model_booking_work_order,,1,1,1,1

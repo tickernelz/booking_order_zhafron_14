@@ -17,6 +17,7 @@
     # for the full list
     'category': 'Sales',
     'version': '0.1',
+    'application': True,
 
     # any module necessary for this one to work correctly
     'depends': ['base', 'sale'],
