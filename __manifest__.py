@@ -3,13 +3,13 @@
     'name': "Booking Order",
 
     'summary': """
-        Booking Order Zhafron""",
+        Booking Order odoo 14""",
 
     'description': """
-        Booking Order Zhafron
+        Booking Order odoo 14
     """,
 
-    'author': "Zhafron",
+    'author': "Masbin Version form Zahfron",
     'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -33,9 +33,5 @@
         'report/report_work_order.xml',
         'report/report.xml',
         'data/data.xml',
-    ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
     ],
 }
