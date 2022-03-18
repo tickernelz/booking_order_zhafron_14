@@ -11,6 +11,6 @@
                   parent="booking_main" sequence="2" action=""/>
 
         <menuitem name="Service Team" id="service_team_main"
-                  parent="booking_main" sequence="3" action=""/>
+                  parent="booking_main" sequence="3" action="service_team_action"/>
     </data>
 </odoo>
