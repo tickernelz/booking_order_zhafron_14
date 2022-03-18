@@ -17,7 +17,8 @@ class BookingOrder(models.Model):
         comodel_name='res.users',
         string='Team Members')
     booking_start = fields.Datetime(
-        string='Booking Start')
+        string='Booking Start',
+        default=fields.Date.today())
     booking_end = fields.Datetime(
         string='Booking End')
     wo_count = fields.Integer(
