@@ -5,10 +5,10 @@
                   parent="sale.sale_menu_root" sequence="5"/>
 
         <menuitem name="Booking Order" id="booking_order_main"
-                  parent="booking_main" sequence="1" action=""/>
+                  parent="booking_main" sequence="1" action="booking_order_action"/>
 
         <menuitem name="Work Order" id="work_order_main"
-                  parent="booking_main" sequence="2" action=""/>
+                  parent="booking_main" sequence="2" action="work_order_action"/>
 
         <menuitem name="Service Team" id="service_team_main"
                   parent="booking_main" sequence="3" action="service_team_action"/>

@@ -20,13 +20,19 @@
     'application': True,
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'sale'],
+    'depends': ['base', 'sale', 'sale_management'],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
+        'wizard/wizard_cancelled.xml',
         'views/service_team_views.xml',
+        'views/work_order_views.xml',
+        'views/booking_order_views.xml',
         'views/menu.xml',
+        'report/report_work_order.xml',
+        'report/report.xml',
+        'data/data.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
