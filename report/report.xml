@@ -5,7 +5,6 @@
                 string="Print Work Order"
                 model="booking.work_order"
                 report_type="qweb-pdf"
-                name="report_work_order"
-        />
+                name="report_work_order"/>
     </data>
 </odoo>
