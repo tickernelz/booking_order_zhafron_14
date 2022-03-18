@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_booking_order_zhafron_14_booking_order_zhafron_14,booking_order_zhafron_14.booking_order_zhafron_14,model_booking_order_zhafron_14_booking_order_zhafron_14,base.group_user,1,1,1,1
+access_booking_service_team,access.booking.service_team,model_booking_service_team,,1,1,1,1
