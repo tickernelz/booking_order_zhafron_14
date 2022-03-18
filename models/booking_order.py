@@ -46,7 +46,8 @@ class BookingOrder(models.Model):
     def action_check(self):
         for check in self:
             wo = self.env['booking.work_order'].search(
-                [('team_leader', 'in', [g.id for g in self.team_members]),
+                ['|', '|', '|',
+                 ('team_leader', 'in', [g.id for g in self.team_members]),
                  ('team_members', 'in', [self.team_leader.id]),
                  ('team_leader', '=', self.team_leader.id),
                  ('team_members', 'in', [g.id for g in self.team_members]),
@@ -62,7 +63,8 @@ class BookingOrder(models.Model):
         res = super(BookingOrder, self).action_confirm()
         for order in self:
             wo = self.env['booking.work_order'].search(
-                [('team_leader', 'in', [g.id for g in self.team_members]),
+                ['|', '|', '|',
+                 ('team_leader', 'in', [g.id for g in self.team_members]),
                  ('team_members', 'in', [self.team_leader.id]),
                  ('team_leader', '=', self.team_leader.id),
                  ('team_members', 'in', [g.id for g in self.team_members]),
@@ -81,6 +83,6 @@ class BookingOrder(models.Model):
             wo_obj.create([{'bo_reference': order.id,
                             'team': order.team.id,
                             'team_leader': order.team_leader.id,
-                            'team_members': [(4, order.team_members.ids)],
+                            'team_members': order.team_members.ids,
                             'planned_start': order.booking_start,
                             'planned_end': order.booking_end}])
