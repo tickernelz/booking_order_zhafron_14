@@ -17,16 +17,16 @@
                                         <td style="width: 25%;font-size:20px; border: 1px solid black"><span
                                                 t-field="o.bo_reference.team.name"/></td>
                                         <td style="width: 25%;font-size:20px; border: 1px solid black">Customer</td>
-                                        <td style="width: 25%;font-size:20px; border: 1px solid black">
-                                            <span t-field="o.bo_reference.partner_id.name"/></td>
+                                        <td style="width: 25%;font-size:20px; border: 1px solid black"><span
+                                                t-field="o.bo_reference.partner_id.name"/></td>
                                     </tr>
                                     <tr>
                                         <td style="font-size:20px; border: 1px solid black">Booking Order Ref</td>
                                         <td style="font-size:20px; border: 1px solid black"><span
                                                 t-field="o.bo_reference.name"/></td>
                                         <td style="font-size:20px; border: 1px solid black">Date</td>
-                                        <td style="font-size:20px; border: 1px solid black">
-                                            <span t-field="o.date_start"/> - <span t-field="o.date_end"/></td>
+                                        <td style="font-size:20px; border: 1px solid black"><span
+                                                t-field="o.date_start"/> - <span t-field="o.date_end"/></td>
                                     </tr>
                                     <tr>
                                         <td style="font-size:20px; border: 1px solid black" colspan="4">NOTES :
