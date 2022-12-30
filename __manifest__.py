@@ -3,13 +3,13 @@
     'name': "Booking Order",
 
     'summary': """
-        Booking Order Zhafron""",
+        Booking Order Bintang""",
 
     'description': """
-        Booking Order Zhafron
+        Booking Order Bintang kh
     """,
 
-    'author': "Zhafron",
+    'author': "Muhammad Bintang",
     'website': "http://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
